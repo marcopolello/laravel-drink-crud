@@ -14,7 +14,7 @@ body{
       margin: 10px 20px;
       padding: 10px;
       width: 200px;
-      height: 220px;
+      height: 300px;
       a{
         color: white;
         text-decoration: none;
@@ -23,6 +23,13 @@ body{
         border-radius: 5px;
         border: 1px solid black;
         padding: 5px 0;
+        &:hover{
+          background-color: black;
+        }
+      }
+      span{
+        border: 1px solid black;
+        padding: 3px;
         &:hover{
           background-color: black;
         }

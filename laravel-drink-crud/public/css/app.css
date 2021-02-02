@@ -20,7 +20,7 @@ body .container div {
   margin: 10px 20px;
   padding: 10px;
   width: 200px;
-  height: 220px;
+  height: 300px;
 }
 
 body .container div a {
@@ -35,6 +35,15 @@ body .container div .nome {
 }
 
 body .container div .nome:hover {
+  background-color: black;
+}
+
+body .container div span {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+body .container div span:hover {
   background-color: black;
 }
 
