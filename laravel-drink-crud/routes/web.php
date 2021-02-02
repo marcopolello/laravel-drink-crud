@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+// rotta x tutti i drink nel db
+Route::get('/drinks', 'Maincontroller@index')
+  -> name('drinks-index');
+Route::get('/drink/{id}', 'Maincontroller@show')
+  -> name('drink-show');
